@@ -14,10 +14,11 @@ API_KEY = 'API_KEY'
 api_counter = 0
 
 # VARIABLES
+WINDOW_ANGLE = 90       # 90deg to look out the right window, 270deg for left
+FPS = 6                 # Video frames per second
 RADIUS = 6              # Interpoaltion distance
-FPS = 6                 # Video FPS
+
 FOV_INCREASE = 15       # Angle added in front or behind
-WINDOW_ANGLE = 90       # 90 for Right Window, 270 for Left
 
 def decode_google_maps_url(url):
     pattern = r"https://www\.google\.com/maps/dir/(.*)/(.*)/@"
