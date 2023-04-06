@@ -1,6 +1,6 @@
 # OBJECT-02: THE ROADTRIP
 
-Go on a virtual roadtrip anywhere you want! Enter your route and imagine you're staring out the window in the back seat of a car.
+Go on a virtual roadtrip anywhere you want! Enter your route and imagine you're sitting in the back seat, staring out the window.
 
 
 ## REQUIREMENTS
@@ -17,7 +17,7 @@ Go on a virtual roadtrip anywhere you want! Enter your route and imagine you're 
 4. Images will download and save in a folder, and your video will generate automatically.
 
 Here are some modifications that you can make:
-- You'll look out the right side of the car by default. To check out the left side, change the WINDOW_ANGLE from 90 to 270.
+- You'll look out the right side of the car by default. To look out the left side, change the WINDOW_ANGLE from 90 to 270.
 - Play with the FPS (frames per second) to "drive" faster or slower.
 - Adjust the RADIUS to set the max distance between street view images. If you want fewer images for less API cost or faster results, increase this number.
 
